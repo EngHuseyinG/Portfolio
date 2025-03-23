@@ -16,7 +16,7 @@
 - UI Design made on AdobeXD.
 - [Click for download design folder](https://drive.google.com/drive/folders/1eiva1zIftjveTw9WW0-peintwuCePIZ5?usp=sharing)
 
-### Color 1 :\#334579
+### Color 1 : \#334579
 ### Color 2 : \#FFFFFF
 ### Color 3 : \#62183B
 ### Color 4 : \#000000

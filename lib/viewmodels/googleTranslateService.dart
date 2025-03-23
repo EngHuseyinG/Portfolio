@@ -22,8 +22,7 @@ class GoogleTranslateService extends SecretKeys with ChangeNotifier{
   bool get loadingTranslator => _loadingTranslator;
 
   Future translateText(bool TranslatetoEN) async {
-    final String url =
-        "https://translation.googleapis.com/language/translate/v2?key=$apiKey";
+    final String url =  "https://translation.googleapis.com/language/translate/v2?key=$apiKey";
 
     textKeys = _pagestext.AllTextforTranslator.keys.toList(); // Metinlerin orjinal Türkçe hallerinin keylerini yeni bir listeye eşitleriz
     textValues = _pagestext.AllTextforTranslator.values.toList(); // Metinlerin orjinal Türkçe hallerini yeni bir listeye eşitleriz
@@ -43,6 +42,7 @@ class GoogleTranslateService extends SecretKeys with ChangeNotifier{
 
       if (response.statusCode == 200) {
         var data = jsonDecode(response.body);  // Bu, Google Translator Rest API ile ingilizce metinleri aldığımız kısım
+        //print('${data}');
         List<String> _translatedValues = [];
         for(var i=0; i < textValues.length; i++) {
           _translatedValues.add(data['data']['translations'][i]['translatedText']);
