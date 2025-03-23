@@ -2,7 +2,7 @@
 
 Portfolio on 2025 by Hüseyin Gürel
 
-![Alt Text](https://drive.google.com/file/d/18BrbqfM8SGbQojxjNiLaKSUeVRmS1eK7/view?usp=sharing)
+![Alt Text](https://i.imgur.com/d7SNORo.png)
 
 ## About Coding
 
