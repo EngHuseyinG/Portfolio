@@ -184,13 +184,12 @@ class _MainpagetrState extends State<Mainpagetr> {
       body:
       Consumer4<MouseRegions, Autoscroll, GoogleTranslateService, Urlservices>(
               builder: (context, _mouseregions , _autoscroll, _translate, _urlservice, child) {
-                // Eğer Appbar butonlarından provider methoduna bir scroll komutu gelirse dinle ve Future çalıştır
+                // If get a command from navigation button, scroll to page
                 if (_autoscroll.scrolled == true) {
                   _scrollToContainer(_autoscroll.index, context);
                 }
 
-
-                // Tüm Sectionlarda Mavi Wallpaper kullanmak için Container ile başlayıp arkaplan dekoru atıyoruz
+                // The main widget is container has blue wallpaper and it continues with sections
                 return Container(
                   height: double.infinity,
                   width: double.infinity,
