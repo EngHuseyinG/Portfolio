@@ -48,6 +48,7 @@ class _MainpagetrState extends State<Mainpagetr> {
 
   _MainpagetrState(this._translateEN);
 
+
   @override
   void initState() {
 
@@ -81,6 +82,8 @@ class _MainpagetrState extends State<Mainpagetr> {
         _UpdateSkillsCardScale();
       }
     });
+
+
     super.initState();
   }
 
@@ -188,6 +191,7 @@ class _MainpagetrState extends State<Mainpagetr> {
                 if (_autoscroll.scrolled == true) {
                   _scrollToContainer(_autoscroll.index, context);
                 }
+
 
                 // The main widget is container has blue wallpaper and it continues with sections
                 return Container(

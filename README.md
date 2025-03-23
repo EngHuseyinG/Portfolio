@@ -2,7 +2,18 @@
 
 ![Alt Text](https://i.imgur.com/d7SNORo.png)
 
-## About Coding
+## Features
+
+- Responsive Design works on all devices.
+- Provider patterns
+- Turkish and English modes with Google Translation API
+- Youtube Link Forwarding with app cards on all devices
+- Image Slider with buttons
+- Scale Animations with Scroll Detecting and Mouse Region
+- Analyze Optimized with Firebase
+- Firebase Hosting
+
+## About UI & Coding Organization
 
 - Web Page has only 1 scrollable sceen and it has 6 Sections (6 Container). Howewer, all navigation buttons scroll screen to sections
 - Page has 2 modes for Responsive Designs like monitor or mobile. It works by screen pixel of width

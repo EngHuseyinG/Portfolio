@@ -20,7 +20,7 @@ class Appbartext {
     'Web Applications',
     'Products',
     'About Me',
-    'Communication',
+    'Contact',
   ];
 
 }
