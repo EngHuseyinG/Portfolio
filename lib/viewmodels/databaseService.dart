@@ -6,12 +6,16 @@ import 'package:flutter/cupertino.dart';
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 import 'package:intl/intl.dart';
+import 'package:portfolio/viewmodels/secrets.dart';
 
 
-class DatabaseService with ChangeNotifier {
+class DatabaseService  extends SecretKeys with ChangeNotifier {
+
+  final StringuserAPIKey = SecretKeys().userAPIKey;
   final DatabaseReference _dbref = FirebaseDatabase.instance.ref();
   int _readCount = 0;
   var data;
+
 
   Future<void> GetUserInformations()  async {
 
@@ -26,7 +30,7 @@ class DatabaseService with ChangeNotifier {
       _dbref.child('enteredCounter').set(_readCount);
     }
 
-    final response = await http.get(Uri.parse('https://ipapi.co/json/'));
+    final response = await http.get(Uri.parse(StringuserAPIKey));
 
 
     DeviceInfoPlugin deviceInfo = DeviceInfoPlugin();
@@ -36,12 +40,8 @@ class DatabaseService with ChangeNotifier {
 
     if (response.statusCode == 200) {
       data = json.decode(response.body);
-      print("IP Adresi: ${data['ip']}");
-      print("Ülke: ${data['country_name']}");
-      print("Şehir: ${data['city']}");
-      print("İnternet Servis Sağlayıcı: ${data['org']}");
     } else {
-      print("Konum bilgisi alınamadı.");
+      print("No Data.");
     }
 
 
@@ -72,7 +72,7 @@ class DatabaseService with ChangeNotifier {
     DateTime now = DateTime.now();
     String formattedDate = DateFormat("yyyy-MM-dd HH:mm:ss").format(now);
 
-    final response = await http.get(Uri.parse('https://ipapi.co/json/'));
+    final response = await http.get(Uri.parse(StringuserAPIKey));
 
 
     DeviceInfoPlugin deviceInfo = DeviceInfoPlugin();
@@ -82,12 +82,8 @@ class DatabaseService with ChangeNotifier {
 
     if (response.statusCode == 200) {
       data = json.decode(response.body);
-      print("IP Adresi: ${data['ip']}");
-      print("Ülke: ${data['country_name']}");
-      print("Şehir: ${data['city']}");
-      print("İnternet Servis Sağlayıcı: ${data['org']}");
     } else {
-      print("Konum bilgisi alınamadı.");
+      print("No Data");
     }
 
 

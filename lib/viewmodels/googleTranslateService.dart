@@ -2,9 +2,11 @@ import 'dart:convert';
 import 'package:flutter/cupertino.dart';
 import 'package:http/http.dart' as http;
 import 'package:portfolio/constants/text/pagesTextTR.dart';
+import 'package:portfolio/viewmodels/secrets.dart';
 
-class GoogleTranslateService with ChangeNotifier{
-  final String apiKey = "AIzaSyDwabtbdP_TlL6N37f14g8hxo7uatJtYQU";
+class GoogleTranslateService extends SecretKeys with ChangeNotifier{
+
+  final String apiKey = SecretKeys().googleTranslateAPIKey;
 
   bool _loadingTranslator = true;
 
@@ -33,6 +35,7 @@ class GoogleTranslateService with ChangeNotifier{
         headers: {"Content-Type": "application/json"},
         body: jsonEncode({
           "q": textValues, // Çevrilecek metin
+          "source": "tr",
           "target": 'en', // Hedef dil (tr = Türkçe, en = İngilizce)
           "format": "text",
         }),

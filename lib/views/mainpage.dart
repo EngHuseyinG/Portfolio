@@ -509,7 +509,7 @@ class _MainpagetrState extends State<Mainpagetr> {
                   child: GestureDetector(
                     onTap: () {
                       Provider.of<DatabaseService>(context, listen: false).TeleportalClicked();
-                      Provider.of<Urlservices>(context, listen: false).openNewUrl(_myassets.webAppYoutubeLinks[0], 'new tab');
+                      Provider.of<Urlservices>(context, listen: false).openNewUrl(_myassets.webAppYoutubeLinks[index], 'new tab');
                     },
                     child: Card(
                       color: Colors.white,
@@ -1331,7 +1331,7 @@ class _MainpagetrState extends State<Mainpagetr> {
                 child: GestureDetector(
                   onTap: () {
                     Provider.of<DatabaseService>(context, listen: false).TeleportalClicked();
-                    Provider.of<Urlservices>(context, listen: false).openNewUrl(_myassets.webAppYoutubeLinks[0], 'new tab');
+                    Provider.of<Urlservices>(context, listen: false).openNewUrl(_myassets.webAppYoutubeLinks[index], 'new tab');
                   },
                   child: Card(
                     color: Colors.white,
