@@ -2,7 +2,7 @@
 
 Portfolio on 2025 by Hüseyin Gürel
 
-![Alt Text](assets/adobeXD.png)
+![Alt Text](https://imgur.com/a/lUTkgbg)
 
 ## About Coding
 
@@ -11,6 +11,16 @@ Portfolio on 2025 by Hüseyin Gürel
 - All assets, texts and models are in [constants/] folder
 - Page has Turkish and English modes and Turkish texts are in [constants->text] folder. English mode works with Google Cloud Translation with Rest API
 - Project has writen with MVVM Design Patterns by provider. Provider backend view models in [viewmodels/] folder.
+
+
+## UI Design
+
+- UI Design made on AdobeXD.[Click for download design folder](https://drive.google.com/drive/folders/1eiva1zIftjveTw9WW0-peintwuCePIZ5?usp=sharing)
+
+### Color 1 : \#334579
+### Color 2 : \#FFFFFF
+### Color 3 : \#62183B
+### Color 4 : \#000000
 
 
 The project was prepared by Hüseyin Gürel in March 2025
