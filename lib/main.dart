@@ -1,6 +1,7 @@
 import 'dart:ui';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:portfolio/constants/screenDesigns.dart';
 import 'package:portfolio/constants/theme.dart';
 import 'package:portfolio/viewmodels/databaseService.dart';
 import 'package:portfolio/viewmodels/googleTranslateService.dart';
@@ -43,12 +44,17 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: _customTheme1.theme1,
       initialRoute: '/TR',
-      scrollBehavior:  ScrollConfiguration.of(context).copyWith(
+      scrollBehavior:  context.dynamicWidth(1) < 750 ?
+      ScrollConfiguration.of(context).copyWith(
       dragDevices: {
-        PointerDeviceKind.touch,
         PointerDeviceKind.mouse,
       },
-    ),
+    ) :
+      ScrollConfiguration.of(context).copyWith(
+        dragDevices: {
+          PointerDeviceKind.touch,
+        },
+      ),
       onGenerateRoute: (RouteSettings settings) {
         switch (settings.name) {
           case '/TR' :

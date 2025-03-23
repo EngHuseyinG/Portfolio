@@ -211,6 +211,7 @@ class _MainpagetrState extends State<Mainpagetr> {
 
   Widget MainContainerforPCSections(BuildContext context, Autoscroll _autoscroll, GoogleTranslateService _translate, MouseRegions _mouseregions) {
     return ListView(
+      physics: ScrollPhysics(),
       scrollDirection: Axis.vertical,
       controller: _scrollController,
       children: [
