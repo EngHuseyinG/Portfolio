@@ -4,7 +4,7 @@ Portfolio on 2025 by Hüseyin Gürel
 
 ## Getting Started
 
-![Alt Text](https://png.pngtree.com/templates/sm/20180519/sm_5b0022bcebeaa.jpg)
+![Alt Text](assets/adobeXD.png)
 
 - Web Page has only 1 scrollable sceen and it has 6 Sections (6 Container). Howewer, all navigation buttons scroll screen to sections.
 - Page has 2 modes for Responsive Designs like monitor or mobile. It works by screen pixel of width.
