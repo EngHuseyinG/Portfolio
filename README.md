@@ -8,7 +8,7 @@ Portfolio on 2025 by Hüseyin Gürel
 
 - Web Page has only 1 scrollable sceen and it has 6 Sections (6 Container). Howewer, all navigation buttons scroll screen to sections.
 - Page has 2 modes for Responsive Designs like monitor or mobile. It works by screen pixel of width.
-- Page has Turkish and English modes and Turkish texts are in [constants->text] folder. English mode works with Google Cloud Translation with Rest API
+- Page has Turkish and English modes and Turkish texts are in (constants->text) folder. English mode works with Google Cloud Translation with Rest API
 - 
 - 
 
