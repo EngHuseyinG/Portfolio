@@ -1,7 +1,5 @@
 # Portfolio
 
-Portfolio on 2025 by Hüseyin Gürel
-
 ![Alt Text](https://i.imgur.com/d7SNORo.png)
 
 ## About Coding
