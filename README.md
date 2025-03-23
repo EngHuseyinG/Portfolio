@@ -2,7 +2,7 @@
 
 Portfolio on 2025 by Hüseyin Gürel
 
-![Alt Text](https://imgur.com/a/lUTkgbg)
+![Alt Text](https://drive.google.com/file/d/18BrbqfM8SGbQojxjNiLaKSUeVRmS1eK7/view?usp=sharing)
 
 ## About Coding
 
@@ -15,12 +15,15 @@ Portfolio on 2025 by Hüseyin Gürel
 
 ## UI Design
 
-- UI Design made on AdobeXD.[Click for download design folder](https://drive.google.com/drive/folders/1eiva1zIftjveTw9WW0-peintwuCePIZ5?usp=sharing)
+- UI Design made on AdobeXD.
+- [Click for download design folder](https://drive.google.com/drive/folders/1eiva1zIftjveTw9WW0-peintwuCePIZ5?usp=sharing)
 
-### Color 1 : \#334579
+### Color 1 :\#334579
 ### Color 2 : \#FFFFFF
 ### Color 3 : \#62183B
 ### Color 4 : \#000000
+
+
 
 
 The project was prepared by Hüseyin Gürel in March 2025
