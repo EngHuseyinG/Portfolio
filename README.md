@@ -16,7 +16,7 @@
 ## About UI & Coding Organization
 
 - Web Page has only 1 scrollable sceen and it has 6 Sections (6 Container). Howewer, all navigation buttons scroll screen to sections
-- Page has 2 modes for Responsive Designs like monitor or mobile. It works by screen pixel of width
+- Page has 2 modes for Responsive Designs like monitor or mobile. It works by width of screen pixel.
 - All assets, texts and models are in [constants/] folder
 - Page has Turkish and English modes and Turkish texts are in [constants->text] folder. English mode works with Google Cloud Translation with Rest API
 - Project has writen with MVVM Design Patterns by provider. Provider backend view models in [viewmodels/] folder.
