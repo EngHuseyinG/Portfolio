@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:portfolio/constants/theme.dart';
 import 'package:portfolio/viewmodels/databaseService.dart';
 import 'package:portfolio/viewmodels/googleTranslateService.dart';
-import 'package:portfolio/viewmodels/urlservices.dart';
+import 'package:portfolio/viewmodels/urlServices.dart';
 import 'package:portfolio/viewmodels/autoScroll.dart';
 import 'package:portfolio/viewmodels/mouseRegions.dart';
 import 'package:portfolio/views/mainpage.dart';
