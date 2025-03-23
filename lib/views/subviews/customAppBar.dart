@@ -6,7 +6,6 @@ import 'package:portfolio/constants/widgetDesigns.dart';
 import 'package:portfolio/viewmodels/autoScroll.dart';
 import 'package:portfolio/viewmodels/googleTranslateService.dart';
 import 'package:portfolio/viewmodels/urlservices.dart';
-import 'package:portfolio/views/mainpage.dart';
 import 'package:provider/provider.dart';
 
 
