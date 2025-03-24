@@ -44,7 +44,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: _customTheme1.theme1,
       initialRoute: '/TR',
-      scrollBehavior:  context.dynamicWidth(1) < 750 ?
+      scrollBehavior:  context.dynamicWidth(1) > 750 ?
       ScrollConfiguration.of(context).copyWith(
       dragDevices: {
         PointerDeviceKind.mouse,
