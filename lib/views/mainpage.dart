@@ -683,7 +683,7 @@ class _MainpagetrState extends State<Mainpagetr> {
                         mainAxisAlignment: MainAxisAlignment.center,
                         crossAxisAlignment: CrossAxisAlignment.center,
                         spacing: context.dynamicHeigth(0.05),
-                        children: List.generate(3, (_listindex) {
+                        children: List.generate(4, (_listindex) {
                           return MouseRegion(
                             onHover: (_) {
                               _mouseregions.ModulePictureHovered(_listindex);
@@ -770,7 +770,6 @@ class _MainpagetrState extends State<Mainpagetr> {
             ),
           ),
         ),
-
       ],
     );
   }
@@ -1480,7 +1479,7 @@ class _MainpagetrState extends State<Mainpagetr> {
                       mainAxisAlignment: MainAxisAlignment.center,
                       crossAxisAlignment: CrossAxisAlignment.center,
                       spacing: context.dynamicHeigth(0.05),
-                      children: List.generate(3, (_listindex) {
+                      children: List.generate(4, (_listindex) {
                         return GestureDetector(
                           onTap: () {
                             _autoscroll.UpdateModuleAsset(_listindex);

@@ -96,6 +96,7 @@ class Myassets {
     'assets/images/teleportWiFi.png',
     'assets/images/teleportWiFiCard.jpg',
     'assets/images/teleportWiFiSimulation.png',
+    'assets/images/teleportWiFischematic.png',
   ];
 
 

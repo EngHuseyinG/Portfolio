@@ -91,7 +91,7 @@ class Customappbar extends StatelessWidget implements PreferredSizeWidget {
                     _autoscroll.GotoIndex(index);
                   });
                 },
-                tooltip: _translateEN == true ? _appbartext.NavigationTooltipsEN[index] : _appbartext.NavigationTooltipsTR[0],
+                tooltip: _translateEN == true ? _appbartext.NavigationTooltipsEN[index] : _appbartext.NavigationTooltipsTR[index],
                 icon: _widgetdesigns.navigationIcons[index],
               );
             }),
