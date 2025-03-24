@@ -47,7 +47,7 @@ class MyApp extends StatelessWidget {
       scrollBehavior:  context.dynamicWidth(1) > 750 ?
       ScrollConfiguration.of(context).copyWith(
       dragDevices: {
-        PointerDeviceKind.mouse,
+        PointerDeviceKind.trackpad,
       },
     ) :
       ScrollConfiguration.of(context).copyWith(
