@@ -512,7 +512,12 @@ class _MainpagetrState extends State<Mainpagetr> {
                   duration: Duration(milliseconds: 300),
                   child: GestureDetector(
                     onTap: () {
-                      Provider.of<DatabaseService>(context, listen: false).TeleportalClicked();
+                      switch(index) {
+                        case 0:
+                          Provider.of<DatabaseService>(context, listen: false).TeleportalClicked();
+                        case 1:
+                          Provider.of<DatabaseService>(context, listen: false).PortfolioClicked();
+                      }
                       Provider.of<Urlservices>(context, listen: false).openNewUrl(_myassets.webAppYoutubeLinks[index], 'new tab');
                     },
                     child: Card(

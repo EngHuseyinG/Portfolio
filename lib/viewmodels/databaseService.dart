@@ -150,6 +150,16 @@ class DatabaseService  extends SecretKeys with ChangeNotifier {
     }
   }
 
+  Future<void> PortfolioClicked() async {
+    int _data = 0;
+    final snapshot = await _dbref.child('portfolioClicked').get();
+    if(snapshot.exists) {
+      _data = snapshot.value as int;
+      _data++;
+      _dbref.child('portfolioClicked').set(_data);
+    }
+  }
+
 
 
 }
